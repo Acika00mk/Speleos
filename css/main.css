@@ -43,6 +43,7 @@ color: black !important;
 }
 
 #overlay{
+    display: none;
     position: absolute;
     top: 0px;
     z-index: 2;
