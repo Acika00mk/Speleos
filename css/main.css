@@ -118,12 +118,19 @@ header {
         position: relative;
         top: -70px;
         background: green;
-        height: 200px;
+        height: 350px;
     }
 
         header .headerSLider ul {
             list-style: none;
         }
+
+
+.headerTitle h1{
+    font-family: 'Megrim';
+    font-weight: bold;
+    font-size: 70px;
+}
 
 /*#region David */
 
