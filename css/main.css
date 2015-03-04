@@ -124,7 +124,6 @@ header .headerSLider {
 header .headerSLider ul {
     list-style: none;
 }
-=======
     header ul.menu {
         background: rgba(0, 0, 0, 0.3);
         z-index: 10;
@@ -149,7 +148,6 @@ header .headerSLider ul {
         z-index: -1;
         position: relative;
         top: -70px;
-        background: green;
         height: 350px;
     }
 
@@ -157,7 +155,6 @@ header .headerSLider ul {
             list-style: none;
         }
 
->>>>>>> UrsusSpeleos/master
 
 .headerTitle h1 {
     font-family: 'Megrim';
@@ -197,10 +194,6 @@ display: none;}
     opacity: 0.5;
     transition: all ease-in-out 0.3s;
 }
-<<<<<<< HEAD
-=======
-
-
 .lang-versions-button {
     transition: all ease-in-out 0.3s;
 }
@@ -244,5 +237,4 @@ display: none;}
     padding: 50px 0px;
     background: rgba(0, 0, 0, 0.8);
 }
->>>>>>> UrsusSpeleos/master
 /*#endregion*/
