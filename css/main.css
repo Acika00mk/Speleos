@@ -1,10 +1,43 @@
-.mainImageWrapper{
+@font-face {
+  font-family: 'Megrim';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Megrim'), url(http://fonts.gstatic.com/s/megrim/v7/9P_3onJTQHRtuAYFLfpNCuvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+.mainImageWrapper {}
 
+.mainTitleContainer {
+    position: relative;
+    margin-top: 100px;
+    z-index: 1;
+    text-align: center;
 }
 
-.mainTitleContainer{
+.mainTitleContainer #title a{
+      font-family: 'Megrim';
+color: white !important;
+    text-decoration: none;
+    font-size: 120px;
 }
 
-.mainTitleContainer #title{
+.description{
+    font-family: 'Megrim';
+    color: white !important;
+    text-decoration: none;
+    font-size: 50px;
+}
 
+.mainImageWrapper .mainImage {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+.more-site {
+color: black !important;
+    text-align: center;
+    width:  45%;
+    max-width: 50%;
 }
