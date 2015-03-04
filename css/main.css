@@ -92,6 +92,7 @@ header {
     z-index: 3;
 }
 
+<<<<<<< HEAD
 header ul.menu {
     background: rgba(0, 0, 0, 0.5);
     z-index: 10;
@@ -123,6 +124,40 @@ header .headerSLider {
 header .headerSLider ul {
     list-style: none;
 }
+=======
+    header ul.menu {
+        background: rgba(0, 0, 0, 0.3);
+        z-index: 10;
+    }
+
+        header ul.menu li {
+            padding: 10px 20px;
+            display: inline-block;
+            color: #999999;
+            background: transparent;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+        }
+
+            header ul.menu li:hover {
+                color: #ffffff;
+                background-color: transparent;
+                cursor: pointer;
+            }
+
+    header .headerSLider {
+        z-index: -1;
+        position: relative;
+        top: -70px;
+        background: green;
+        height: 350px;
+    }
+
+        header .headerSLider ul {
+            list-style: none;
+        }
+
+>>>>>>> UrsusSpeleos/master
 
 .headerTitle h1 {
     font-family: 'Megrim';
@@ -160,5 +195,54 @@ display: none;}
     left: 0px;
     width: 152px;
     opacity: 0.5;
+    transition: all ease-in-out 0.3s;
 }
+<<<<<<< HEAD
+=======
+
+
+.lang-versions-button {
+    transition: all ease-in-out 0.3s;
+}
+
+    .lang-versions-button:hover {
+        background: rgba(240, 240, 240, 0.96);
+        color: black;
+        text-decoration: none;
+    }
+
+.cool-menu {
+    position: relative;
+}
+
+.central-part {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    margin-left: -25%;
+    top: 25%;
+}
+
+.cool-box {
+    background: black;
+    border: 1px solid white;
+    height: 180px;
+}
+
+    .cool-box a {
+        padding: 52px 0px;
+        text-align: center;
+        display: block;
+        height:100%;
+    }
+
+.p0 {
+    padding: 0 !important;
+}
+
+.main-content {
+    padding: 50px 0px;
+    background: rgba(0, 0, 0, 0.8);
+}
+>>>>>>> UrsusSpeleos/master
 /*#endregion*/
