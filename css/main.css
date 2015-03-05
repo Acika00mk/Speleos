@@ -29,7 +29,8 @@
     margin-top: 15px;
 }
 
-.mainImageWrapper {}
+.mainImageWrapper {
+}
 
 .mainTitleContainer {
     position: relative;
@@ -38,12 +39,12 @@
     text-align: center;
 }
 
-.mainTitleContainer #title a {
-    font-family: 'Megrim';
-    color: white !important;
-    text-decoration: none;
-    font-size: 120px;
-}
+    .mainTitleContainer #title a {
+        font-family: 'Megrim';
+        color: white !important;
+        text-decoration: none;
+        font-size: 120px;
+    }
 
 .description {
     font-family: 'Megrim';
@@ -92,37 +93,37 @@ header {
     z-index: 3;
 }
 
-header ul.menu {
-    background: rgba(0, 0, 0, 0.3);
-    z-index: 10;
-}
+    header ul.menu {
+        background: rgba(0, 0, 0, 0.3);
+        z-index: 10;
+    }
 
-header ul.menu li {
-    padding: 10px 20px;
-    display: inline-block;
-    color: #999999;
-    background: transparent;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-}
+        header ul.menu li {
+            padding: 10px 20px;
+            display: inline-block;
+            color: #999999;
+            background: transparent;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+        }
 
-header ul.menu li:hover {
-    color: #ffffff;
-    background-color: transparent;
-    cursor: pointer;
-}
+            header ul.menu li:hover {
+                color: #ffffff;
+                background-color: transparent;
+                cursor: pointer;
+            }
 
-header .headerSLider {
-    z-index: -1;
-    position: relative;
-    top: -70px;
-    background: green;
-    height: 200px;
-}
+    header .headerSLider {
+        z-index: -1;
+        position: relative;
+        top: -70px;
+        background: green;
+        height: 200px;
+    }
 
-header .headerSLider ul {
-    list-style: none;
-}
+        header .headerSLider ul {
+            list-style: none;
+        }
 
 /*#region David */
 
