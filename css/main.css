@@ -126,6 +126,12 @@ header {
         }
 
 /*#region David */
-
+.logo-with-shadow {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 152px;
+    opacity: 0.5;
+}
 
 /*#endregion*/
