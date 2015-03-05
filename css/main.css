@@ -139,6 +139,17 @@ header {
     left: 0px;
     width: 152px;
     opacity: 0.5;
+    transition: all ease-in-out 0.3s;
 }
 
+
+.lang-versions-button {
+    transition: all ease-in-out 0.3s;
+}
+
+    .lang-versions-button:hover {
+        background: rgba(240, 240, 240, 0.96);
+        color: black;
+        text-decoration: none;
+    }
 /*#endregion*/
