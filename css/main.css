@@ -126,7 +126,7 @@ header {
         }
 
 
-.headerTitle h1{
+.headerTitle h1 {
     font-family: 'Megrim';
     font-weight: bold;
     font-size: 70px;
@@ -152,4 +152,38 @@ header {
         color: black;
         text-decoration: none;
     }
+
+.cool-menu {
+    position: relative;
+}
+
+.central-part {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    margin-left: -25%;
+    top: 25%;
+}
+
+.cool-box {
+    background: black;
+    border: 1px solid white;
+    height: 180px;
+}
+
+    .cool-box a {
+        padding: 52px 0px;
+        text-align: center;
+        display: block;
+        height:100%;
+    }
+
+.p0 {
+    padding: 0 !important;
+}
+
+.main-content {
+    padding: 50px 0px;
+    background: rgba(0, 0, 0, 0.8);
+}
 /*#endregion*/
