@@ -1,0 +1,22 @@
+﻿.main-page {
+    background-image: url("../img/bcg-main.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lang-versions-button {
+    display: block;
+    width: 150px;
+    background: rgba(255, 255, 255, 0.65);
+    height: 60px;
+    padding: 17px 15px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: lowercase;
+    font-size: 20px;
+    font-family: 'Megrim';
+    font-weight: 900;
+    margin: 0 auto;
+    margin-top: 15px;
+}
